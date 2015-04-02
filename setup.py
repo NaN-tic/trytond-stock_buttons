@@ -9,7 +9,7 @@ import os
 import ConfigParser
 
 MODULE = 'stock_buttons'
-PREFIX = 'trytonzz'
+PREFIX = 'trytonspain'
 MODULE2PREFIX = {}
 
 def read(fname):
