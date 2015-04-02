@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part stock_buttons module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/tree/field[@name='state']" position="after">
+        <button string="Cancel" name="cancel" tree_invisible="1"/>
+        <button string="Draft" name="draft" tree_invisible="1"/>
+        <button string="Received" name="receive" tree_invisible="1"/>
+        <button string="Done" name="done" tree_invisible="1"/>
+    </xpath>
+</data>

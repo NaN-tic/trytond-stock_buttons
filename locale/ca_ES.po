@@ -1,0 +1,131 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "view:purchase.purchase:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:purchase.purchase:"
+msgid "Confirm"
+msgstr "Confirma"
+
+msgctxt "view:purchase.purchase:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:purchase.purchase:"
+msgid "Process"
+msgstr "Processa"
+
+msgctxt "view:purchase.purchase:"
+msgid "Quote"
+msgstr "Pressupost"
+
+msgctxt "view:sale.sale:"
+msgid "Are you sure to cancel sales?"
+msgstr "Voleu cancel·lar les vendes?"
+
+msgctxt "view:sale.sale:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:sale.sale:"
+msgid "Confirm"
+msgstr "Confirma"
+
+msgctxt "view:sale.sale:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:sale.sale:"
+msgid "Process"
+msgstr "Processa"
+
+msgctxt "view:sale.sale:"
+msgid "Quote"
+msgstr "Pressupost"
+
+msgctxt "view:stock.shipment.in.return:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:stock.shipment.in.return:"
+msgid "Done"
+msgstr "Realitza"
+
+msgctxt "view:stock.shipment.in.return:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:stock.shipment.in.return:"
+msgid "Wait"
+msgstr "En espera"
+
+msgctxt "view:stock.shipment.in:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:stock.shipment.in:"
+msgid "Done"
+msgstr "Realitza"
+
+msgctxt "view:stock.shipment.in:"
+msgid "Receive"
+msgstr "Rebre"
+
+msgctxt "view:stock.shipment.in:"
+msgid "Reset to Draft"
+msgstr "Restaura a esborrany"
+
+msgctxt "view:stock.shipment.internal:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:stock.shipment.internal:"
+msgid "Done"
+msgstr "Realitza"
+
+msgctxt "view:stock.shipment.internal:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:stock.shipment.internal:"
+msgid "Wait"
+msgstr "En espera"
+
+msgctxt "view:stock.shipment.out.return:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:stock.shipment.out.return:"
+msgid "Done"
+msgstr "Realitza"
+
+msgctxt "view:stock.shipment.out.return:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:stock.shipment.out.return:"
+msgid "Received"
+msgstr "Rebre"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Done"
+msgstr "Realitza"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Draft"
+msgstr "Esborrany"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Make shipment"
+msgstr "Prepara enviament"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Wait"
+msgstr "En espera"
