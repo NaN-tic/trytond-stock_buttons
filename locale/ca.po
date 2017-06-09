@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -52,7 +52,7 @@ msgstr "Cancel·la"
 
 msgctxt "view:stock.shipment.in.return:"
 msgid "Done"
-msgstr "Realitza"
+msgstr "Finalitza"
 
 msgctxt "view:stock.shipment.in.return:"
 msgid "Draft"
@@ -68,7 +68,7 @@ msgstr "Cancel·la"
 
 msgctxt "view:stock.shipment.in:"
 msgid "Done"
-msgstr "Realitza"
+msgstr "Finalitza"
 
 msgctxt "view:stock.shipment.in:"
 msgid "Receive"
@@ -84,7 +84,7 @@ msgstr "Cancel·la"
 
 msgctxt "view:stock.shipment.internal:"
 msgid "Done"
-msgstr "Realitza"
+msgstr "Finalitza"
 
 msgctxt "view:stock.shipment.internal:"
 msgid "Draft"
@@ -100,7 +100,7 @@ msgstr "Cancel·la"
 
 msgctxt "view:stock.shipment.out.return:"
 msgid "Done"
-msgstr "Realitza"
+msgstr "Finalitza"
 
 msgctxt "view:stock.shipment.out.return:"
 msgid "Draft"
@@ -116,7 +116,7 @@ msgstr "Cancel·la"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Done"
-msgstr "Realitza"
+msgstr "Finalitza"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Draft"
@@ -124,7 +124,7 @@ msgstr "Esborrany"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Make shipment"
-msgstr "Prepara enviament"
+msgstr "Empaqueta"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Wait"
