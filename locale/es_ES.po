@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -52,7 +52,7 @@ msgstr "Cancelar"
 
 msgctxt "view:stock.shipment.in.return:"
 msgid "Done"
-msgstr "Realizar"
+msgstr "Finalizar"
 
 msgctxt "view:stock.shipment.in.return:"
 msgid "Draft"
@@ -60,7 +60,7 @@ msgstr "Borrador"
 
 msgctxt "view:stock.shipment.in.return:"
 msgid "Wait"
-msgstr "En espera"
+msgstr "Esperando"
 
 msgctxt "view:stock.shipment.in:"
 msgid "Cancel"
@@ -68,7 +68,7 @@ msgstr "Cancelar"
 
 msgctxt "view:stock.shipment.in:"
 msgid "Done"
-msgstr "Realizar"
+msgstr "Finalizar"
 
 msgctxt "view:stock.shipment.in:"
 msgid "Receive"
@@ -84,7 +84,7 @@ msgstr "Cancelar"
 
 msgctxt "view:stock.shipment.internal:"
 msgid "Done"
-msgstr "Realizar"
+msgstr "Finalizar"
 
 msgctxt "view:stock.shipment.internal:"
 msgid "Draft"
@@ -100,7 +100,7 @@ msgstr "Cancelar"
 
 msgctxt "view:stock.shipment.out.return:"
 msgid "Done"
-msgstr "Realizar"
+msgstr "Finalizar"
 
 msgctxt "view:stock.shipment.out.return:"
 msgid "Draft"
@@ -116,7 +116,7 @@ msgstr "Cancelar"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Done"
-msgstr "Realizar"
+msgstr "Finalizar"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Draft"
@@ -124,7 +124,7 @@ msgstr "Borrador"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Make shipment"
-msgstr "Preparar envío"
+msgstr "Empaquetar"
 
 msgctxt "view:stock.shipment.out:"
 msgid "Wait"
