@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="move_view_tree">
+            <field name="model">stock.move</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="10"/>
+            <field name="name">move_tree</field>
+        </record>
+    </data>
+    <data depends="product_manufacturer">
+        <record model="ir.ui.view" id="move_product_manufacturer_view_tree">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="move_view_tree"/>
+            <field name="name">move_product_manufacturer_tree</field>
+        </record>
+    </data>
+    <data depends="stock_split">
+        <record model="ir.ui.view" id="move_stock_split_view_tree">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="move_view_tree"/>
+            <field name="name">move_stock_split_tree</field>
+        </record>
+    </data>
+    <data depends="stock_external_party">
+        <record model="ir.ui.view" id="move_stock_external_party_view_tree">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="move_view_tree"/>
+            <field name="name">move_stock_external_party_tree</field>
+        </record>
+    </data>
+    <data depends="stock_lot">
+        <record model="ir.ui.view" id="move_lot_view_tree">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="move_view_tree"/>
+            <field name="name">move_lot_tree</field>
+        </record>
+    </data>
+    <data depends="stock_valued">
+        <record model="ir.ui.view" id="move_stock_valued_view_tree">
+            <field name="model">stock.move</field>
+            <field name="inherit" ref="move_view_tree"/>
+            <field name="name">move_stock_valued_tree</field>
+        </record>
+    </data>
+</tryton>

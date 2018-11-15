@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part stock_buttons module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='incoming_moves']/field[@name='incoming_moves']" position="replace_attributes">
+        <field name="incoming_moves" colspan="4" view_ids="stock_buttons.move_view_tree"/>
+    </xpath>
+    <xpath expr="/form/notebook/page[@id='inventory_moves']/field[@name='inventory_moves']" position="replace_attributes">
+        <field name="inventory_moves" colspan="4" view_ids="stock_buttons.move_view_tree"/>
+    </xpath>
+</data>
