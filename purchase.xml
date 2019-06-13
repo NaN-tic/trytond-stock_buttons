@@ -5,7 +5,6 @@ this repository contains the full copyright notices and license terms. -->
     <data depends="purchase">
         <record model="ir.ui.view" id="purchase_view_tree">
             <field name="model">purchase.purchase</field>
-            <field name="type" eval="None"/>
             <field name="inherit" ref="purchase.purchase_view_tree"/>
             <field name="name">purchase_tree</field>
         </record>
