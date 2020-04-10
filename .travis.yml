@@ -8,7 +8,5 @@ env:
         - TOXENV=py36-sqlite
 notifications:
     email:
-        recipients:
-            - developers@nan-tic.com
         on_success: change
         on_failure: always
