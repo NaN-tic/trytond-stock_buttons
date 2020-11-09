@@ -21,7 +21,7 @@ this repository contains the full copyright notices and license terms. -->
         <record model="ir.ui.view" id="move_stock_split_view_tree">
             <field name="model">stock.move</field>
             <field name="inherit" ref="move_view_tree"/>
-            <field name="name">move_stock_split_tree</field>
+            <field name="name">move_split_tree</field>
         </record>
     </data>
     <data depends="stock_external_party">
