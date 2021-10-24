@@ -17,7 +17,7 @@ class StockButtonsTestCase(ModuleTestCase):
     module = 'stock_buttons'
     extras = []
     for extra_depend in ('product_manufacturer', 'stock_split',
-            'stock_external_party', 'stock_lot', 'stock_valued'):
+            'stock_lot', 'stock_valued'):
         try:
             tools.file_open(os.path.join(extra_depend, 'tryton.cfg'))
             extras.append(extra_depend)
