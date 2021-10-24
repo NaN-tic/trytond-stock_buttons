@@ -13,7 +13,10 @@ from configparser import ConfigParser
 
 MODULE = 'stock_buttons'
 PREFIX = 'trytonspain'
-MODULE2PREFIX = {'stock_external_party': 'nantic', 'stock_valued': 'trytonspain', 'product_manufacturer': 'trytonzz'}
+MODULE2PREFIX = {
+    'stock_valued': 'nan-tic',
+    'product_manufacturer': 'nan-tic',
+    }
 
 
 def read(fname):
@@ -64,13 +67,6 @@ else:
     branch = series
 
 dependency_links = [
-   ('git+https://github.com/NaN-tic/'
-       'trytond-stock_external_party@%(branch)s'
-       '#egg=nantic-stock_external_party%(series)s'%{
-               'branch': branch, 
-               'series': series,}),
-
-
    ('git+https://github.com/trytonspain/'
        'trytond-stock_valued@%(branch)s'
        '#egg=trytonspain-stock_valued%(series)s'%{
