@@ -1,19 +1,18 @@
-# This file is part of the stock_buttons module for Tryton.
-# The COPYRIGHT file at the top level of this repository contains the full
-# copyright notices and license terms.
-import unittest
-import trytond.tests.test_tryton
+
+# This file is part of Tryton.  The COPYRIGHT file at the top level of
+# this repository contains the full copyright notices and license terms.
+
 from trytond.tests.test_tryton import ModuleTestCase
 import trytond.tools as tools
 import os
-
+from trytond.modules.company.tests import CompanyTestMixin
 OPJ = os.path.join
 MODULES_PATH = os.path.abspath(__file__)
 # MODULES_PATH = os.path.abspath('../..')
 
 
-class StockButtonsTestCase(ModuleTestCase):
-    'Test Stock Buttons module'
+class StockButtonsTestCase(CompanyTestMixin, ModuleTestCase):
+    'Test StockButtons module'
     module = 'stock_buttons'
     extras = []
     for extra_depend in ('product_manufacturer', 'stock_split',
@@ -24,8 +23,5 @@ class StockButtonsTestCase(ModuleTestCase):
         except IOError:
             pass
 
-def suite():
-    suite = trytond.tests.test_tryton.suite()
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
-        StockButtonsTestCase))
-    return suite
+
+del ModuleTestCase
