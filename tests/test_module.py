@@ -15,8 +15,7 @@ class StockButtonsTestCase(CompanyTestMixin, ModuleTestCase):
     'Test StockButtons module'
     module = 'stock_buttons'
     extras = []
-    for extra_depend in ('product_manufacturer', 'stock_split',
-            'stock_lot', 'stock_valued'):
+    for extra_depend in ('stock_split', 'stock_lot', 'stock_valued'):
         try:
             tools.file_open(os.path.join(extra_depend, 'tryton.cfg'))
             extras.append(extra_depend)
