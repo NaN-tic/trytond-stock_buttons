@@ -5,7 +5,7 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
     <xpath expr="/tree/field[@name='state']" position="after">
         <button name="cancel" tree_invisible="1"/>
         <button name="receive" tree_invisible="1"/>
-        <button name="done" tree_invisible="1"/>
+        <button name="do" tree_invisible="1"/>
         <button name="draft" tree_invisible="1"/>
     </xpath>
 </data>

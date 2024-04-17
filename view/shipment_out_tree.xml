@@ -8,6 +8,6 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
         <button name="wait" tree_invisible="1"/>
         <button name="assign_wizard" tree_invisible="1"/>
         <button name="pack" tree_invisible="1"/>
-        <button name="done" tree_invisible="1"/>
+        <button name="do" tree_invisible="1"/>
     </xpath>
 </data>
